@@ -23,5 +23,5 @@ func diff() string {
 }
 
 func now() int64 {
-	return time.Now().UnixNano() / 10000
+	return time.Now().UnixNano() / 1000000
 }
