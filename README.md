@@ -1,6 +1,6 @@
 ## debug
 
-Tiny debugging tool inspired by [visionmedia/debug](http://github.com/visionmedia/debug)
+Golang equivalent of [visionmedia/debug](http://github.com/visionmedia/debug)
 
 foo.go:
 
