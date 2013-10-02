@@ -21,6 +21,7 @@ func caller() string {
 func colorOf(name string) string {
 	mutex.RLock()
 	if color, ok := colorMap[name]; ok {
+		mutex.RUnlock()
 		return color
 	}
 	mutex.RUnlock()
