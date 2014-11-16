@@ -1,3 +1,7 @@
+## deprecated
+
+I'm maintaining [logger](http://github.com/azer/logger) now.
+
 ## debug
 
 Golang equivalent of [visionmedia/debug](http://github.com/visionmedia/debug)
